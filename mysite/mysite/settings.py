@@ -105,11 +105,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Seoul'
+TIME_ZONE = 'Asia/Seoul' # UTC에서 Asia/Seoul로 변경
 
 USE_I18N = True
 
-USE_TZ = False
+USE_TZ = False # True에서 False로 변경
 
 
 # Static files (CSS, JavaScript, Images)
